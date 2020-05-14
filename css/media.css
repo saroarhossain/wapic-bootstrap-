@@ -1,0 +1,31 @@
+@media(max-width: 1199px){
+header .row {
+    min-height: 650px;
+    
+}
+@media(max-width: 991px){
+	header .row {
+    min-height: 520px;}
+
+@media(max-width: 767px){
+	header .row {
+    min-height: 480px;}
+    
+    .banner {text-align: center;}
+
+    .banner h1 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600; }
+    .banner p {
+    font-size: 13px;
+    color: #fff; }
+}
+
+
+@media(max-width: 575px){
+
+	}
+
+
+

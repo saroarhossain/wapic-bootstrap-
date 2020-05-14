@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #83A7a5;
+}
+
+header{
+    background-image: url(../images/banner.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay{
+   background-color: #0F5F5CCC;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+}
+.tel-number{
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 3px;
+    border-left: 1px solid #ffffffa6;
+    padding-left: 15px;
+}
+
+.navbar .container{
+    border-bottom: 1px solid #cec6c6bd;
+    padding: 15px 0;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 6px 15px;
+    }
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    
+color: #fff !important;
+    
+}
+    
+.btn-highlight{
+    background: #83A7A5;
+    color: #fff !important;
+}
+.btn-highlight:hover {
+    
+background: #6cb541;
+}
+header .row{
+    min-height: 700px;
+    align-items: center;
+}
+.banner{}
+.banner h1{
+    font-size: 40px;
+    color: #fff;
+}
+.banner p{
+    color: #fff;
+    text-transform: capitalize;
+}
+.btn-custom{
+    color: #fff;
+    background: #6cb541;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+}
+.btn-custom:hover{
+    background-color:#83A7A5;  
+    color: #fff
+
+}
+
+.feature-section{
+    padding: 50px 0;
+}
+.heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.heading h1{
+    color: #0f5f5c;
+    margin: 0;
+    font-size: 35px;
+    font-weight: 600;
+}
+.heading span{
+    width: 60px;
+    height: 1px;
+    background: #0f5f5c69;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+.heading p{
+    font-size: 17px;
+}
+.feature{
+    
+padding: 25px 0;
+}
+.feature img{
+    padding: 15px 0;
+}
+.feature h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #0f5f5c;
+}
+.feature p{
+    font-size: 15px;
+}
+.feature nav{}
+li h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: #105a58;
+    padding-left: 5px;
+}
+
+.temple-section{
+    background-image: url(../images/perfect-template.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+
+
